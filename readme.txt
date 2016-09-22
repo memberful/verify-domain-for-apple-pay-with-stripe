@@ -15,8 +15,8 @@ This plugin adds Stripe's domain association file for Apple Pay to your site
 and makes it available at
 `https://<YOUR_SITE_DOMAIN>/.well-known/apple-developer-merchantid-domain-association`.
 
-Plugin should work most cases. If it isn't working, then make sure that the
-URL is not blocked by your web server and that it is passed to WordPress. You
+Plugin should work in most cases. If it isn't working, then make sure that the
+URL is not blocked by your web server and that request is passed to WordPress. You
 can do this by making sure that Non-Plain permalinks (`Settings -> Permalinks`)
 are working for you.
 
@@ -25,14 +25,8 @@ are working for you.
 1. Upload the plugin files to the `/wp-content/plugins/apple-pay-for-stripe` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
-== Frequently Asked Questions ==
-
-== Screenshots ==
-
 == Changelog ==
 
 = 1.0 =
 
 * Plugin release.
-
-== Upgrade Notice ==
