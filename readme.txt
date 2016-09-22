@@ -1,29 +1,26 @@
-=== Apple Pay for Stripe ===
-Contributors: patrik bona
-Tags: memberful, apple pay, stripe, domain verification
+=== Verify Apple Pay for Stripe ===
+Contributors: patrik-bona, drewstrojny
+Tags: apple pay, stripe, domain verification, memberful
 Requires at least: 1.5.2
 Tested up to: 4.6.1
 Stable tag: 1.0
-License: MIT
-License URI: https://opensource.org/licenses/MIT
+License: GPLv2 or later
 
-Add Apple Pay domain association file for Stripe to your site.
+Verify your WordPress domain for Apple Pay with Stripe.
 
 == Description ==
 
-This plugin adds Stripe's domain association file for Apple Pay to your site
-and makes it available at
-`https://<YOUR_SITE_DOMAIN>/.well-known/apple-developer-merchantid-domain-association`.
+Adds [Stripe's domain association file](https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association) for [Apple Pay verification](https://stripe.com/docs/apple-pay/web#going-live) to your WordPress site and makes it available at `https://<YOUR_SITE_DOMAIN>/.well-known/apple-developer-merchantid-domain-association`.
 
-Plugin should work in most cases. If it isn't working, then make sure that the
-URL is not blocked by your web server and that request is passed to WordPress. You
-can do this by making sure that Non-Plain permalinks (`Settings -> Permalinks`)
-are working for you.
+= Troubleshooting =
+
+* Apple Pay requires SSL. This means you must have an SSL certificate installed on your website and your domain must be accessible at an URL that starts with `https`.
+* The plugin should work if custom permalinks work. If the plugin doesn't work, make sure the URL is not blocked by your web server and that request is being passed to WordPress. 
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/apple-pay-for-stripe` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
+1. Install and activate the plugin from your WordPress dashboard, or download the files and visit Plugins => Add New => Upload from your WordPress dashboard.
+2. Go to your Stripe dashboard and add your domain from Account Settings => Apple Pay.
 
 == Changelog ==
 
