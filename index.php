@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Apple Pay domain verification for Stripe
-Description: Add Stripe's Apple Pay domain association file to your site
-Version: 1.22.3
+Plugin Name: Apple Pay for Stripe
+Description: Verify your WordPress domain for Apple Pay with Stripe.
+Version: 1.0
 Author: Memberful
 Author URI: https://memberful.com/
-License: MIT
+License: GPLv2 or later
 */
 
 function memberful_show_apple_pay_domain_verification_file() {
