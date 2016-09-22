@@ -32,6 +32,7 @@ are working for you.
 == Changelog ==
 
 = 1.0 =
+
 * Plugin release.
 
 == Upgrade Notice ==
