@@ -6,7 +6,7 @@ Tested up to: 4.6.1
 Stable tag: 1.0
 License: GPLv2 or later
 
-Verify your WordPress domain for Apple Pay with Stripe.
+Adds the domain association file to enable Apple Pay on the Web for your Stripe account.
 
 == Description ==
 
