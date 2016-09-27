@@ -1,5 +1,5 @@
 === Verify domain for Apple Pay with Stripe ===
-Contributors: patrik-bona, drewstrojny
+Contributors: patrik bona, drewstrojny
 Tags: apple pay, stripe, domain verification, memberful
 Requires at least: 1.5.2
 Tested up to: 4.6.1
