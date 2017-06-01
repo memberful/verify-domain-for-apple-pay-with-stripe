@@ -38,8 +38,8 @@ svn commit --username "$SVN_USER" -m "$COMMIT_MESSAGE"
 
 echo "Tagging version $VERSION"
 cd $LOCAL_SVN_PATH
+svn --force remove tags/$VERSION
 mkdir -p tags/$VERSION
-svn remove tags/$VERSION
 svn copy trunk tags/$VERSION
 cd tags/$VERSION
 svn commit --username "$SVN_USER" -m "$COMMIT_MESSAGE"
