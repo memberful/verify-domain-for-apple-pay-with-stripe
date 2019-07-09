@@ -2,7 +2,7 @@
 Contributors: patrik bona, drewstrojny
 Tags: apple pay, stripe, domain verification, memberful
 Requires at least: 1.5.2
-Tested up to: 4.8
+Tested up to: 5.2
 Stable tag: 1.0
 License: GPLv2 or later
 
