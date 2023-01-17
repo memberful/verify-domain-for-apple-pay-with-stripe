@@ -7,7 +7,7 @@
 
 PLUGIN_SLUG=verify-domain-for-apple-pay-with-stripe
 
-SVN_USER=memberful
+SVN_USER=$MEMBERFUL_SVN_USERNAME
 SVN_URL="https://plugins.svn.wordpress.org/$PLUGIN_SLUG/"
 LOCAL_SVN_PATH="/tmp/$PLUGIN_SLUG"
 TRUNK_PATH="$LOCAL_SVN_PATH/trunk"

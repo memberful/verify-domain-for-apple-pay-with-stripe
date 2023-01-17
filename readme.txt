@@ -22,6 +22,7 @@ Adds [Stripe's domain association file](https://stripe.com/files/apple-pay/apple
 
 1. Install and activate the plugin directly from your WordPress dashboard, or download the files and visit Plugins => Add New => Upload from your WordPress dashboard.
 2. Go to your Stripe dashboard and add your domain from Account Settings => Apple Pay.
+3. Navigate to `https://<YOUR_SITE_DOMAIN>/.well-known/apple-developer-merchantid-domain-association` and verify that it returns the contents of Stripe's domain association file.
 
 == Changelog ==
 
