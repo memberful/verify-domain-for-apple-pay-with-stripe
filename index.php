@@ -3,7 +3,7 @@
 Plugin Name: Verify domain for Apple Pay with Stripe
 Plugin URI: https://github.com/memberful/verify-domain-for-apple-pay-with-stripe
 Description: Adds the domain association file to enable Apple Pay on the Web for your Stripe account.
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 4.1
 Requires PHP: 7.0
 Author: Memberful

@@ -4,7 +4,7 @@ Tags: apple pay, stripe, domain verification, memberful
 Requires at least: 4.1
 Requires PHP: 7.0
 Tested up to: 6.1.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Adds the domain association file to enable Apple Pay on the Web for your Stripe account.
@@ -25,6 +25,10 @@ Adds [Stripe's domain association file](https://stripe.com/files/apple-pay/apple
 3. Navigate to `https://<YOUR_SITE_DOMAIN>/.well-known/apple-developer-merchantid-domain-association` and verify that it returns the contents of Stripe's domain association file.
 
 == Changelog ==
+
+= 1.0.3 =
+
+* Updated README
 
 = 1.0.2 =
 
